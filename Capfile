@@ -6,8 +6,7 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
-# Manage environment variables
-require 'capistrano/dotenv/tasks'
+
 install_plugin Capistrano::Puma
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
