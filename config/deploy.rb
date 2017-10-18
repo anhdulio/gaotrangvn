@@ -1,7 +1,7 @@
 # Change these
 server '35.197.143.96', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:anhdulio/rails_vue_template.git'
+set :repo_url,        'git@github.com:anhdulio/gaotrangvn.git'
 set :application,     'gaotrang'
 set :user,            'gaotrang'
 set :puma_threads,    [4, 16]
@@ -31,10 +31,8 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 # set :keep_releases, 5
 
 ## Linked Files & Directories (Default None):
-# set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/secrets.yml.key}
 # set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
-
-append :linked_files, "config/secrets.yml.key"
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
