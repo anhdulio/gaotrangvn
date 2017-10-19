@@ -1,0 +1,28 @@
+<%# <h1>Landing#index</h1>
+<p>
+  There should be something : 
+  <b>#{@cats.first.name}</b>
+</p> %>
+<div id="lucky">
+  <v-app>
+    <v-toolbar color="teal" dark dense app>
+      <v-spacer></v-spacer>
+      <v-toolbar-title>GaoTrang</v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-toolbar>
+    <main>
+      <v-content>
+        <v-container text-xs-center style='height: 100%'>
+          <v-layout column style='height: 100%'>
+            <v-spacer></v-spacer>
+            <v-flex>
+              <lucky-btn></lucky-btn>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </v-content>
+    </main>
+    <v-footer color="teal" dark app></v-footer>
+  </v-app>
+</div>
+
