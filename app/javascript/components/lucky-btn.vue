@@ -5,13 +5,13 @@
 </template>
 
 <script>
-export default {
-  data: function () {
-    return {
-      message: "I'm feeling lucky"
+  export default {
+    data: function () {
+      return {
+        message: "I'm feeling lucky"
+      }
     }
   }
-}
 </script>
 
 <style lang="scss" scoped>

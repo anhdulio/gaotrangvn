@@ -5163,6 +5163,12 @@ vue-hot-reload-api@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.2.0.tgz#9a21b35ced3634434a43ee80efb7350ea8fb206d"
 
+vue-info-card@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-info-card/-/vue-info-card-0.1.1.tgz#e78b38ad11e0d5b24633ad99ab5a887154548886"
+  dependencies:
+    vuetrend "^0.2.2"
+
 vue-loader@^13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-13.3.0.tgz#3bf837d490ba5dea6fc07e0835ffa6c688c8af33"
@@ -5210,6 +5216,10 @@ vue@^2.5.2:
 vuetify@^0.16.7:
   version "0.16.7"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-0.16.7.tgz#06540b323deabc7077a6164b0cd125c49b8fd787"
+
+vuetrend@^0.2.2:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vuetrend/-/vuetrend-0.2.3.tgz#cb8412709af089d89c1b507037355dd63b269389"
 
 watchpack@^1.4.0:
   version "1.4.0"
